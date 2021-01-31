@@ -1,11 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Header from "./header";
+import Footer from "./Footer";
 
 function App() {
+  const fecha = new Date().getFullYear();
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <Fragment>
+      <Header titulo="Hola" numero={20} />
+      <Footer fecha={fecha} />
+    </Fragment>
   );
 }
 

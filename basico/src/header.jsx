@@ -2,11 +2,9 @@ import React from 'react'
 
 var palabra = " barabara "
 
-function Header() {
-
+function Header({titulo}) {
     return (
-        <h1>Hellowi {palabra}</h1>
-       
+        <h1>Hellowi {titulo}</h1>
     )
 }
 
