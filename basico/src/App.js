@@ -7,10 +7,10 @@ function App() {
   // Crear listado de productos
   const [elementos, setElementos] = useState([
     { id: 1, nombre: "camisa0", precio: 50 },
-    { id: 1, nombre: "camisa1", precio: 32 },
-    { id: 1, nombre: "camisa2", precio: 54 },
-    { id: 1, nombre: "camisa3", precio: 23 },
-    { id: 1, nombre: "camisa4", precio: 54 },
+    { id: 2, nombre: "camisa1", precio: 32 },
+    { id: 3, nombre: "camisa2", precio: 54 },
+    { id: 4, nombre: "camisa3", precio: 23 },
+    { id: 5, nombre: "camisa4", precio: 54 },
   ]);
   // obtener fecha
   const fecha = new Date().getFullYear();
